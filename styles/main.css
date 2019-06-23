@@ -34,6 +34,7 @@ p{
 }
 blockquote{
     padding: 2em 2em;
+    font-style: italic;
 }
 ul{
     padding-bottom: .25em;
@@ -42,11 +43,16 @@ ul{
 li{
     padding-bottom: .35em;
 }
+a{
+    padding-top: .40em;
+    padding-bottom: .40em;
+}
 	/* the styles for the header */
 header {
     border-bottom: solid 3px #931420;
     padding-top: 1.5em;
     padding-bottom: 2em;
+    background-image: linear-gradient(30deg, #f6bb73 0%, #fffded 15%, #ffffff 50%, #fffded 80%, #f6bb73 100%);
 }
 
 header h2 {
@@ -88,6 +94,9 @@ main {
 	clear: left;
     padding-left: 30px;
     padding-right: 30px;
+}
+main img{
+    padding-top: .30em;
 }
 
 /* the styles for the footer */
