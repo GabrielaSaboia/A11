@@ -1,4 +1,8 @@
 /* the styles for the elements */
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
 	background-color: #ffffff;
 }
@@ -17,17 +21,19 @@ a:hover{
 	/* the styles for the header */
 header {
     border-bottom: solid 3px #931420;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
 }
 
 header h2 {
 	font-size: 170%;
 	color:#800000;
-	padding-left: 120px;
+
 }
 header h3{
 	font-size:130%;
 	font-style: italic;
-	padding-left: 120px;
+
 }
 .shadow{
     text-shadow: 2px 2px 5px #800000;
@@ -35,6 +41,8 @@ header h3{
 header img {
 	height: 80px;
 	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* the styles for the section */
