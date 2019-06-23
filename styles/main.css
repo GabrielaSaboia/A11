@@ -60,6 +60,8 @@ main h3{
 }
 main {
 	clear: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* the styles for the footer */
